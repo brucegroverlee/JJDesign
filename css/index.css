@@ -1,0 +1,224 @@
+
+body {
+	font-size: 16px;
+	background-color: #FFFFFF;
+	color: #414040;
+}
+
+header {
+	background-color: #C36E7E;
+}
+
+input {
+	height: 40px !important;
+}
+.header-navbar-container {
+	color: #EEE6E6;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	line-height: 60px;
+	width: 80%;
+	margin: auto;
+}
+
+.header-logo {
+	font-size: 20px;
+}
+
+.header-navbar {
+
+}
+
+.header-navbar-list {
+	display: flex;
+}
+
+.header-navbar-item {
+	font-size: 12px;
+	background-color: #811F4B;
+	padding: 0px 20px;
+	height: 50px;
+	line-height: 50px;
+	margin: 5px 0px;
+	display: flex;
+	align-items: center;
+}
+/*** slide-picture ***************************************/
+
+#slide-picture {
+	background-image: url('.././img/desktop.jpg');
+	background-size: 100% auto;
+	width: 100%;
+	height: 70vh;
+	background-color: #D3CDCD;
+	color: #F6F6F6;
+	padding: 0px 0px;
+}
+
+.slide-picture-content {
+	width: 80%;
+	margin: auto;
+	height: 100%;
+}
+
+.slide-picture-list {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	-webkit-align-content: space-around; 
+  	align-content: space-around; 
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+}
+
+#slide-picture-more {
+	background-color: #F97575;
+	border-color: #F97575;
+	padding: 10px 40px;
+}
+
+/*** slide-nosotros ***************************************/
+
+.slide-nosotros {
+}
+
+.slide-nosotros-container {
+	width: 520px;
+	margin: auto;
+	margin: 70px auto;
+}
+
+.slide-nosotros-titulo {
+	text-align: center;
+}
+
+.slide-nosotros-contenido {
+	margin: 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.slide-nosotros-box {
+	width: 250px;
+	height: 250px;
+	background-color: #9A9797;
+	color: #F6F6F6;
+	margin: 5px;
+	padding:  30px 20px;
+	text-align: center;
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-between;*/
+}
+
+.slide-nosotros-box-icono, .slide-nosotros-box-titulo, .slide-nosotros-box-contenido {
+	margin: 20px auto;
+	line-height: 15px;
+}
+
+.slide-nosotros-box-titulo {
+	font-size: 18px;
+}
+
+#slide-nosotros-box-azul {
+	background-color: #65CFE2;
+}
+
+#slide-nosotros-box-rojo {
+	background-color: #FC5C5C;
+}
+
+/*** slide servicio *******************************************************************************************/
+
+
+.slide-servicio {
+}
+
+.slide-servicio-container {
+	width: 80%;
+	margin: auto;
+	margin: 70px auto;
+}
+
+.slide-servicio-titulo {
+	text-align: center;
+}
+
+.slide-servicio-contenido {
+	margin: 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.slide-servicio-box {
+	width: 220px;
+	height: 200px;
+	margin: 5px;
+	padding:  30px 20px;
+	text-align: center;
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-between;*/
+}
+
+.slide-servicio-box-icono, .slide-servicio-box-titulo, .slide-servicio-box-contenido {
+	margin: 20px auto;
+	line-height: 15px;
+}
+
+.slide-servicio-box-titulo {
+	font-size: 18px;
+}
+	
+/*** slide-equipo *************************************************************************************/
+
+.slide-equipo {
+}
+
+.slide-equipo-container {
+	width: 80%;
+	margin: auto;
+	margin: 70px auto;
+}
+
+.slide-equipo-titulo {
+	text-align: center;
+}
+
+.slide-equipo-contenido {
+	margin: 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.slide-equipo-perfil {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+}
+
+.slide-equipo-perfil-descripcion, .slide-equipo-perfil-nombre {
+	height: 50%;
+	display: block;
+}
+
+/*** slide-contactanos ********/
+
+.slide-contactanos {
+	background-color: #7B7B7B;
+	color: #F6F6F6;
+	font-size: 40px;
+	text-align: center;
+	padding: 100px;
+}
+
+
+
+
+

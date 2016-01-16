@@ -12,6 +12,11 @@ header {
 input {
 	height: 40px !important;
 }
+
+google-map {
+    height: 300px;
+}
+
 .header-navbar-container {
 	color: #EEE6E6;
 	height: 60px;
@@ -63,13 +68,15 @@ input {
 }
 
 .slide-picture-list {
-	height: 100%;
+	padding-top: 40px;
+	height: 60%;
 	display: flex;
 	flex-direction: column;
-	-webkit-align-content: space-around; 
+	justify-content: space-around;
+	/*-webkit-align-content: space-around; 
   	align-content: space-around; 
   -webkit-flex-flow: column wrap;
-  flex-flow: column wrap;
+  flex-flow: column wrap;*/
 }
 
 #slide-picture-more {
@@ -216,6 +223,54 @@ input {
 	font-size: 40px;
 	text-align: center;
 	padding: 100px;
+}
+
+/*** slide-contacto ************************************************/
+
+.slide-contacto {
+	background-color: #6D60AF;
+	color: #F6F6F6;
+}
+
+.slide-contacto-container {
+	width: 80%;
+	margin: auto;
+	padding: 50px 0px;
+}
+
+.slide-contacto-titulo {
+	text-align: center;
+}
+
+.slide-contacto-contenido {
+	margin: auto;
+	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.slide-contacto-horario, .slide-contacto-formulario {
+	width: 50%;
+}
+
+.slide-contacto-horario {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.icon-socials {
+	margin-right: 20px;
+}
+
+/*** footer **************************************************************/
+
+footer {
+	padding: 40px 0px;
+	background-color: #463B6D;
+	color: #887AB1;
+	text-align: center;
 }
 
 

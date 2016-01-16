@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<link rel="import" href="./bower_components/google-map/google-map.html">
 </head>
 <body>
 	<header>
@@ -122,11 +123,51 @@
 		Contáctanos
 	</section>
 
-	<footer>
-		
-	</footer>
+	<!-- aca falta poner el google-map -->
+	<google-map latitude="-12.067139" longitude="-77.069107" zoom="15">
+		<google-map-marker latitude="-12.067139" longitude="-77.069107"></google-map-marker>
+	</google-map>
 
+	<section class="slide-contacto">
+		<div class="slide-contacto-container">
+			<div class="slide-contacto-titulo">
+				<div><h3><strong>Contácto</strong></h3></div>
+				<div>Háblanos sobre tu proyecto</div>
+			</div>
+			<div class="slide-contacto-contenido">
+				<div class="slide-contacto-horario">
+					<ul>
+						<li><strong>Horario de Trabajo</strong></li>
+						<li>Lunes a Viernes / 8:00 - 18:00</li>
+						<li><i class="fa fa-map-marker"></i> Jr. Marte 459 Pueblo Libre</li>
+						<li><i class="fa fa-phone"></i> 942792005</li>
+						<li><i class="fa fa-envelope"></i></li>
+					</ul>
+					<div class="slide-contacto-redes">
+						<i class="fa fa-facebook fa-2x icon-socials"></i>
+						<i class="fa fa-twitter fa-2x icon-socials"></i>
+						<i class="fa fa-google-plus fa-2x icon-socials"></i>
+					</div>
+				</div>
+				<div class="slide-contacto-formulario">
+					<form>
+						<input type="text" class="form-control" id="inputEmail" placeholder="Name">
+						<input type="text" class="form-control" id="inputEmail" placeholder="Email (Will not published)">
+						<textarea class="form-control" rows="3" id="textArea" placeholder="Message"></textarea>
+						<button type="submit" class="btn btn-default">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div>(c) copyright 2013 macankumbang</div>
+		<div>Macankumbang</div>
+	</footer>
 	<script type="text/javascript" src="./js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.js"></script>
+	<script src="./bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
 </body>
 </html>

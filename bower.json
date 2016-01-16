@@ -1,0 +1,22 @@
+{
+  "name": "jjdesign",
+  "description": "Landing page os JJDesign Studio",
+  "main": "index.html",
+  "authors": [
+    "Bruce Grover Lee"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "~0.7.20",
+    "google-map": "GoogleWebComponents/google-map#~1.1.7"
+  }
+}
